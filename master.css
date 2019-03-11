@@ -1,0 +1,12 @@
+div {
+    border: 1px double black;
+    padding: 5px; 
+}
+
+.header {
+    height: 89px;
+}
+
+.footer {
+    height: 89px;
+}
