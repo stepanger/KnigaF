@@ -1,0 +1,44 @@
+Books documents: 
+{
+    "id": "1",
+    "NameBooks": "Гари Потер",        
+    "ISBN": 3-1231123-12-2,
+    "Aftor": [
+        "Thomas Andersen",
+        "Tramp Jonson"
+    ],
+    "Description": "sdcascas asdcasdc asdcasdc",
+    "Like": 200,
+    "Data": "12/01/19",
+    "Genre": [
+        "Роман",
+        "Боевик",
+        "Вестерн"
+    ],
+    "Image": "https://....png",
+    "DataLinck": "24/02/13",
+}
+
+Films documents:
+
+{
+    "id": 1,
+    "idBooks": 12,
+    "NmaeFilms": "Гари Потер",
+    "Genre": [
+        "Роман",
+        "Боевик",
+        "Вестерн"
+    ],
+    "Trailer": "https://....png",
+    "Image": "https://....png",
+    "DataLinck": "24/02/13",
+    "LikeKinoPoisk": 200,
+}
+
+Aftor documents:
+
+{
+    "id": 1,
+    "NameAftor": "Thomas Andersen",
+}

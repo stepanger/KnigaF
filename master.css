@@ -1,10 +1,21 @@
-div {
-    /border: 1px double black;
-    padding: 5px; 
+body{
+    background: rgba(178, 239, 253, 0.34);
+}
+
+.container {
+    background: rgb(255, 255, 255);
 }
 
 .header {
+    font-size: 23px;
+    font-weight: 500;
+    border-bottom: 2px solid rgba(154, 214, 255, 0.55);
     margin-bottom: 40px;
+}
+
+div {
+    /border: 1px double black;
+    padding: 5px; 
 }
 
 .content, .history {
@@ -15,6 +26,14 @@ div {
     margin-top: 12px;
     height: 89px;
 }
+
+
+
+
+
+
+
+
 
 .cover img{
     max-width:100%;
