@@ -4,9 +4,14 @@ div {
 }
 
 .header {
-    height: 89px;
+    margin-bottom: 40px;
+}
+
+.content .left-bar {
+    padding: 22px;
 }
 
 .footer {
+    margin-top: 12px;
     height: 89px;
 }
