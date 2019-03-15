@@ -10,12 +10,17 @@ body{
     background: #f3f3f3;
     font-size: 23px;
     font-weight: 500;
-    margin-bottom: 8px;
+    padding-bottom: 8px;
+    margin-top: -5px;
 }
 
 div {
     /border: 1px double black;
     padding: 5px; 
+}
+
+.main{
+    border: 0.3px solid #c5e4ff;
 }
 
 .content, .history {
@@ -46,6 +51,7 @@ div {
 }
 
 .header img {
+    
     margin: 21px 0px 22px 29px;
     height: 33px;
     width: 123px;
@@ -67,8 +73,24 @@ div {
 
 
 .navigate a {
-    margin-right: 20px;
+    margin: 12px;
     color: #848484;
     font-size: 19px;
     font-weight: 500;
 }
+
+.cover-book img {
+    height: 50px;
+    width: 50px;
+}
+
+.compilation-book {
+    background: #f7f7f7;
+    border: 1px solid #ffffff;
+}
+
+.compilation-book:hover {
+    background: #9ccbf4;
+    cursor: pointer;
+    border-radius: 6px;
+} 
